@@ -1,12 +1,18 @@
+import {BrowserRouter , Routes, Route} from "react-router-dom"
+import Home from "./Pages/Home";
+import AlbumDetails from "./Pages/AlbumDetails";
 
 function App() {
-
-
   return (
     <>
-      <h1 className=" bg-red-500 text-white flex justify-center font-bold text-3xl p-2">Faizan-shify</h1>
+     <BrowserRouter>
+     <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="album : id" element={<AlbumDetails/>} />
+     </Routes>
+     </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
