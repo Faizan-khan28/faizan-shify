@@ -8,7 +8,7 @@ function App() {
      <BrowserRouter>
      <Routes>
       <Route path="/" element={<Home/>}/>
-      <Route path="album : id" element={<AlbumDetails/>} />
+      <Route path="/albums/:id" element={<AlbumDetails/>} />
      </Routes>
      </BrowserRouter>
     </>
