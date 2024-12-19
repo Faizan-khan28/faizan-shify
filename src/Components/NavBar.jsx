@@ -27,7 +27,7 @@ export default function NavBar() {
           name="search"
           id="search"
           placeholder="seacrh for songs"
-          className="border outline-none py-2 w-[40vw] rounded-full text-center text-black"
+          className="border hidden lg:block outline-none py-2 w-[40vw] rounded-full text-center text-black"
         />
       </div>
 

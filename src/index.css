@@ -11,3 +11,19 @@
 body {
     font-family: "Poppins", serif; 
 }
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    margin-bottom: 13px;
+    background-color: #e8e8e8ff;
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 30px;
+    background-color: aqua;
+}
